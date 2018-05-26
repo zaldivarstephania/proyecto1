@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,800i,900,900i');
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+}
+
+body a{
+	text-decoration:none;
+	color:#fff;
+	font-weight:600;
+}
+
+body a:hover{
+	text-decoration:none;
+	color:#9ECDC4;
+	font-weight:600;
+}
+
+body i{
+	font-size: 60px;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+#sec-intro{
+	background-image: url(../img/1.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:25%;
+	text-align:right;
+	padding-bottom: 10%;
+}
+
+#sec-intro button{
+	padding: 10px 30px;
+	font-weight:800;
+}
+
+#sec-intro h2{
+	margin-top:10px;
+	font-size:35px;
+}
+
+#sec-2{
+	background-image: url(../img/2.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:15%;
+	padding-bottom:15%;
+	
+}
+
+.sec-fa{
+	font-size: 50px;
+}
+
+
+#sec-3{
+	background-image: url(../img/3.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:15%;
+	padding-bottom:15%;
+}
+
+#sec-4{
+	background-image: url(../img/4.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:15%;
+	padding-bottom:15%;
+}
+
+#sec-contacto{
+	background-image: url(../img/5.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:15%;
+	padding-bottom:15%;
+}
+
+#sec-mapa{
+	background-image: url(../img/Captura1.PNG);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding-top:15%;
+	padding-bottom:15%;
+}

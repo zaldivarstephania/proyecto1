@@ -1,0 +1,107 @@
+a{
+	outline:0 !important;	
+}
+.navbar-default {
+	background-color:#884bdf;
+	font-size:16px;
+	border-radius:0;
+	margin-bottom:0;
+	border:0;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	background-color: transparent;
+	z-index: 9999;
+	box-shadow: none;
+	width: 100%;
+	text-decoration:none;
+}
+
+.navbar-default .navbar-collapse.in{
+	background-color: #884bdf;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#fff;	
+	font-weight:400;
+}
+.navbar-default .navbar-nav li a:hover{
+	color:##9ECDC4;	
+}
+.navbar-default .navbar-nav li.active a{
+	background-color:transparent;
+	color:##9ECDC4;		
+}
+.navbar-default .navbar-nav li.active a:hover{
+	background-color:#FFF;
+	color:##9ECDC4;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color: ##9ECDC4;	
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover{
+    color: ##9ECDC4;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#064372;
+	opacity:0.9;
+	border:0;
+}
+.dropdown-menu > li > a{
+	font-weight:300!important;	
+}
+.navbar-default .navbar-nav .open .dropdown-menu li  a{
+	color:#fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #1F81BF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle{
+	border-color:#AFAFAF;	
+	border:1px solid #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: ##9ECDC4;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #064372;
+	cursor:pointer;
+}
+.navbar-default .navbar-brand {
+	color:#fff;	
+	font-size: 45px;
+}
+.navbar-default .navbar-brand:hover {
+ 	color:#9ECDC4;
+}
+.navbar-default .navbar-brand img{
+	max-width:80px;
+}
+
+
+.navbar-nav.navbar-center {
+	float:none;
+	text-align: center;
+}
+.navbar-nav.navbar-center > li {
+	display: inline-block;
+	float:none;
+}
+@media (max-width: 768px) {
+	.navbar-nav.navbar-center {
+		text-align: left;
+	}
+    .navbar-nav.navbar-center > li {
+       display: block;
+    }
+}
+
+
